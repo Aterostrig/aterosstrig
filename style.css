@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .35);
+}
+
+body {
+    background: #5c5c5c;
+    color: #ff7300;
+}
+
+.container {
+    max-width: 720px;
+    margin: auto;
+}
+
+h1 {
+    margin-left: 50%;
+    margin-top: -40%;
+}
+
+.info-text {
+    font-family: Roboto, sans-serif;
+    font-size: 18;
+    font-weight: 500;
+    line-height: 18px;
+    font-style: oblique;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #ffbd41;
+    margin-left: 50%;
+}
+
+strong {
+    color: red;
+}
+
+.info-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+
+.subscribe {
+    margin-left: 50%;
+}
+
+
+@media (max-width: 700px) {
+    h1 {
+        margin: auto;
+    }
+    .info-text {
+        display: inline;
+    }
+    .subscribe {
+        margin-left: auto;
+    }
+}
+
+.card {
+    background: #272727;
+    margin: 5px;
+    padding: 25px;
+
+    border: 2px double rgba(0, 99, 0, .70);
+    border-radius: 7px;
+}
+
+    .hobby {
+        border: 2px double rgba(255, 196, 0, .60);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 45px;
+    }
+
+    .work {
+        padding: 27px;
+        border-color: rgba(0, 71, 202, .50);
+        color: #ffbd41;
+    }
+
+    .contact {
+        border-color: rgb(255, 115, 0, .55);
+        padding: 25px;
+    }
+
+a {
+    text-decoration: none;
+    color: red;
+    transition: all .2s;
+}
+
+a:hover {
+    font-size: 1.5rem;
+    color: rgb(0, 174, 255);
+
+}
+
+a:visited {
+    color: green;
+}
+
+.btn {
+    font-family: inherit;
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
+    background: #ff7300;
+}
+
+.btn:hover {
+    color: rgb(0, 0, 0);
+    background: rgb(0, 174, 255);
+}
+
+.list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 95%;
+}
+
+.list tr:nth-child(even) {
+    background: #303030;
+}
+
+.list tr:nth-child(odd) {
+    background: #303030;
+}
+
+.list td:nth-child(1) {
+    background: #393939;
+}
+
+.list td:nth-child(2) {
+    background: #454545;
+}
+
+.list td:nth-child(3) {
+    background: #505050;
+}
+
+.list td {
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;  
+}
+
+.list td:hover {
+    background: rgb(160, 0, 0);
+    color: azure;
+}
+
+.form-gr textarea, input {
+    background: #919191;
+    padding-left: 3px;
+}
+
+::placeholder {
+    color: #ffffff;
+}
